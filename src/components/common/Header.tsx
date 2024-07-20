@@ -16,11 +16,11 @@ const Header = ({}: HeaderProps) => {
   };
 
   return (
-    <header className="min-h-[56px]  px-4 max-w-5xl m-auto flex flex-col md:flex-row justify-between items-center py-8 md:py-0 text-black">
+    <header className="min-h-[56px]  px-4 max-w-4xl my-2 m-auto flex flex-col md:flex-row justify-between items-center py-8 md:py-0 text-black">
       <Link href="/">
-        <h1 className="text-xl font-bold mr-4 md:mr-0 flex justify-center items-center gap-2">
+        <h1 className="bg-clip-text text-transparent bg-gradient-to-r from-[#ffa856] to-[#FF5656] font-extrabold text-2xl">
           Ahmed{" "}
-          <span className="bg-black px-2 py-1 text-white  rounded ">
+          <span  >
             Mansour
           </span>
         </h1>
@@ -28,7 +28,7 @@ const Header = ({}: HeaderProps) => {
       <nav className="flex flex-col md:flex-row mt-4 md:mt-0">
     
       </nav>
-      <Link href={cv} className=" text-white px-4 py-2 font-bold mt-4 md:mt-0 bg-zinc-950 justify-center items-center  gap-2 rounded hidden md:flex">
+      <Link href={cv} className=" text-white px-4 py-2 font-bold mt-4 md:mt-0 bg-gradient-to-r from-[#ffa856] to-[#FF5656] justify-center items-center  gap-2 rounded hidden md:flex ">
         {/* Hamburger icon */}
         Resume
         <Image src="/resume-icon.png" alt="Resume" width={15} height={15} />

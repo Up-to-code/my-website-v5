@@ -20,7 +20,7 @@ const Hero = ({}: HeroProps) => {
               </span>
             </span>
           </h1>
-          <p className="text-2xl font-bold mb-4">
+          <p className="text-2xl font-bold mb-8">
             Expert Programmer in
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#ffa856] to-[#FF5656]">
               {" \t "} Website
@@ -32,7 +32,7 @@ const Hero = ({}: HeroProps) => {
             Applications
           </p>
 
-          <Link href={cv} className="bg-gradient-to-r from-primary to-[#2a2a2a]" >
+          <Link href={cv} media="(orientation: portrait)" className="bg-gradient-to-r from-[#ffa856] text-white px-4 py-3 font-bold rounded  mt-6 to-[#f93d3d] " >
             My Resume
           </Link>
         </div>
