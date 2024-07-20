@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { Button } from "../ui/button";
 import Link from "next/link";
-import { cv } from "@/app/page";
+import { cv } from "@/lib/cvurl"; 
 
 interface HeroProps {
   // ...props

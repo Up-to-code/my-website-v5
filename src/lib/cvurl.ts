@@ -1,0 +1,1 @@
+export const cv = "https://firebasestorage.googleapis.com/v0/b/my-website-310.appspot.com/o/%D8%B3%D9%8A%D8%B1%D8%A9%20%D8%B0%D8%A7%D8%AA%D9%8A%D8%A9%20%D8%A7%D8%A8%D9%8A%D8%B6%20%D9%88%20%D8%B1%D9%85%D8%A7%D8%AF%D9%8A%20%D8%A8%D8%B3%D9%8A%D8%B7%20%D9%88%20%D8%AD%D8%AF%D9%8A%D8%AB.pdf?alt=media&token=98595253-b54a-4691-94dd-2c7927394b06"
